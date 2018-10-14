@@ -29,7 +29,7 @@ if($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_SERVER['PATH_INFO'])){
             case '/multiply':
                 $json_result = array (
                     'status' => 'ok',
-                    'result' => $n1/$n2
+                    'result' => $n1*$n2
                 );
                 $status_code = 200;
             break;
